@@ -27,6 +27,17 @@
       <stop offset="1" stop-color="#D9BE73"/>
     </linearGradient>
 
+    <linearGradient id="isx4Core" x1="5" y1="4" x2="29" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#96C85F"/>
+      <stop offset="0.55" stop-color="#79B848"/>
+      <stop offset="1" stop-color="#5F8F55"/>
+    </linearGradient>
+
+    <linearGradient id="isx4Shade" x1="8" y1="3" x2="31" y2="29" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#607B73"/>
+      <stop offset="1" stop-color="#355451"/>
+    </linearGradient>
+
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0H0V48" stroke="#64748B" stroke-opacity="0.075" stroke-width="1"/>
     </pattern>
@@ -168,11 +179,16 @@
   <g class="display">
     <text class="name" x="78" y="98">Samuel Adebayo</text>
     <text class="primary" x="80" y="134">Applied AI Leader &#183; AI Team Lead @</text>
-    <g transform="translate(386 113)">
-      <rect x="0" y="0" width="80" height="28" rx="14" fill="#F1F7FB" stroke="#72D0BD" stroke-opacity="0.62" stroke-width="1"/>
-      <circle cx="17" cy="14" r="8.5" fill="#E9F2FF" stroke="#9BA9FF" stroke-opacity="0.65" stroke-width="1"/>
-      <text class="org-mark-mini" x="12" y="16.5">IS</text>
-      <text class="org-mark-text" x="32" y="18.5">ISx4</text>
+    <g transform="translate(386 108)">
+      <rect x="0" y="0" width="132" height="36" rx="18" fill="#05080D" stroke="#72D0BD" stroke-opacity="0.58" stroke-width="1"/>
+      <g transform="translate(8 4)">
+        <circle cx="14" cy="14" r="13" fill="url(#isx4Core)"/>
+        <path d="M4.3 17.4C9.8 19.3 18.7 16.9 25.7 7.2" stroke="url(#isx4Shade)" stroke-width="3.8" stroke-linecap="round" fill="none"/>
+        <path d="M4.8 21.7C13.1 24.6 23.8 19.2 27.8 8.9" stroke="url(#isx4Shade)" stroke-width="3.1" stroke-linecap="round" fill="none" opacity="0.76"/>
+        <path d="M8.3 10.1C13.9 12 20.6 9.8 25.4 4.8" stroke="#D9EFCB" stroke-width="2.7" stroke-linecap="round" fill="none" opacity="0.6"/>
+      </g>
+      <text x="42" y="17.2" fill="#FFFFFF" font-size="15" font-weight="780">ISx4</text>
+      <text x="43" y="27.2" fill="#DCE6F3" font-size="5.9" font-weight="720" letter-spacing="1.7">AI &amp; ANALYTICS</text>
     </g>
     <text class="secondary" x="81" y="166">Principal Data Scientist &#183; AI Engineer &#183; ML Researcher</text>
     <text class="secondary-soft" x="81" y="189">Visiting Fellow, Queen&#8217;s University Belfast</text>

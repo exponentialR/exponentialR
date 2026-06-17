@@ -41,12 +41,23 @@ Together, these projects reflect the work I enjoy most: moving from unclear AI o
 <details open>
 <summary><strong>&#9881; ~/engineering-profile</strong></summary>
 
-| Capability | How I work |
-| --- | --- |
-| Applied AI delivery | Shape unclear opportunities into scoped systems, technical plans, prototypes, and deployable workflows. |
-| LLM and agentic systems | Build assistants, retrieval patterns, tool-using agents, evaluation loops, and governance-aware workflows. |
-| ML and computer vision | Translate statistical ML, deep learning, and visual inference into usable decision-support systems. |
-| Production engineering | Design APIs, data pipelines, containers, monitoring, feedback loops, and deployment paths that teams can operate. |
+How I tend to create value: by moving between research, systems thinking, product judgement, and production engineering without treating them as separate worlds.
+
+- &#129504; **Shape the AI opportunity**  
+  Turn ambiguous ideas into scoped systems, delivery plans, evaluation criteria, and practical technical direction.  
+  `discovery` &#183; `architecture` &#183; `technical leadership`
+
+- &#129302; **Build LLM and agentic systems**  
+  Design assistants, retrieval workflows, tool-using agents, governance paths, and feedback loops that teams can trust.  
+  `RAG` &#183; `agents` &#183; `evaluation` &#183; `governance`
+
+- &#128065; **Translate ML and computer vision research**  
+  Bring statistical ML, deep learning, gaze/intention inference, and visual modelling into usable decision-support systems.  
+  `computer vision` &#183; `representation learning` &#183; `human signals`
+
+- &#128736; **Ship production-ready AI**  
+  Build APIs, data pipelines, containers, monitoring, observability, and deployment paths that can survive real workflows.  
+  `MLOps` &#183; `observability` &#183; `cloud` &#183; `reliability`
 
 </details>
 
@@ -63,7 +74,7 @@ Together, these projects reflect the work I enjoy most: moving from unclear AI o
 
 </details>
 
-<details>
+<details open>
 <summary><strong>&#128506; ~/career-landmarks</strong></summary>
 
 A few professional landmarks behind the systems work. CV available on request.
