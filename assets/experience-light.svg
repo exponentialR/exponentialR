@@ -1,0 +1,260 @@
+<svg width="1200" height="960" viewBox="0 0 1200 960" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Samuel Adebayo career roadmap</title>
+  <desc id="desc">An animated light career roadmap from manufacturing engineering and automation engineering through data science, PhD research, and AI leadership.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="960" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FBFF"/>
+      <stop offset="0.52" stop-color="#EEF4FA"/>
+      <stop offset="1" stop-color="#F6F8FC"/>
+    </linearGradient>
+
+    <radialGradient id="wash" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 110) rotate(90) scale(320 440)">
+      <stop offset="0" stop-color="#8AA0FF" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#72D0BD" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#F8FBFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="road" x1="196" y1="130" x2="196" y2="840" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#72D0BD"/>
+      <stop offset="0.34" stop-color="#8AD0FF"/>
+      <stop offset="0.68" stop-color="#B7A6FF"/>
+      <stop offset="1" stop-color="#D9BE73"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="72" y1="118" x2="1128" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#72D0BD"/>
+      <stop offset="0.34" stop-color="#8AD0FF"/>
+      <stop offset="0.68" stop-color="#B7A6FF"/>
+      <stop offset="1" stop-color="#D9BE73"/>
+    </linearGradient>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#94A3B8" stroke-opacity="0.075" stroke-width="1"/>
+    </pattern>
+
+    <filter id="shadow" x="18" y="16" width="1164" height="912" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#64748B" flood-opacity="0.16"/>
+    </filter>
+
+    <style>
+      .display {
+        font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      .mono {
+        font-family: ui-monospace, "SFMono-Regular", "Cascadia Code", "Segoe UI Mono", "Roboto Mono", "JetBrains Mono", "IBM Plex Mono", Consolas, "Liberation Mono", monospace;
+      }
+
+      .title {
+        fill: #0F172A;
+        font-size: 27px;
+        font-weight: 740;
+      }
+
+      .subtitle {
+        fill: #475569;
+        font-size: 13.2px;
+        font-weight: 520;
+      }
+
+      .date {
+        fill: #1E293B;
+        font-size: 11px;
+        font-weight: 760;
+      }
+
+      .company {
+        fill: #0F172A;
+        font-size: 17px;
+        font-weight: 760;
+      }
+
+      .role {
+        fill: #0F766E;
+        font-size: 12.5px;
+        font-weight: 720;
+      }
+
+      .body {
+        fill: #475569;
+        font-size: 11.5px;
+        font-weight: 520;
+      }
+
+      .tag {
+        fill: #64748B;
+        font-size: 9.5px;
+        font-weight: 650;
+      }
+
+      .card {
+        fill: #F8FBFF;
+        stroke: #94A3B8;
+        stroke-opacity: 0.22;
+      }
+
+      .date-pill {
+        fill: #FFFFFF;
+        stroke: #94A3B8;
+        stroke-opacity: 0.22;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        animate,
+        animateMotion {
+          display: none;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="960" fill="url(#bg)"/>
+  <rect width="1200" height="960" fill="url(#grid)"/>
+  <rect width="1200" height="960" fill="url(#wash)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="44" y="34" width="1112" height="880" rx="24" fill="#FFFFFF" fill-opacity="0.9" stroke="#94A3B8" stroke-opacity="0.22"/>
+  </g>
+
+  <g class="display">
+    <text class="title" x="72" y="82">Career Roadmap</text>
+    <text class="subtitle" x="73" y="110">Manufacturing engineering foundation to applied AI leadership</text>
+  </g>
+  <path d="M72 126H1128" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" opacity="0.88"/>
+
+  <g class="mono">
+    <path d="M196 160V804" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round"/>
+    <path d="M196 804V160" stroke="url(#road)" stroke-width="4" stroke-linecap="round" stroke-dasharray="96 644" stroke-dashoffset="740">
+      <animate attributeName="stroke-dashoffset" from="740" to="0" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="196" cy="804" r="5" fill="#8AD0FF">
+      <animate attributeName="cy" values="804;160" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#8AD0FF;#72D0BD;#D9BE73;#B7A6FF;#9BA9FF;#8AD0FF;#72D0BD" dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <g transform="translate(72 146)">
+      <rect class="date-pill" width="96" height="28" rx="14"/>
+      <text class="date" x="17" y="18">2025 -&gt; now</text>
+    </g>
+    <g transform="translate(226 138)">
+      <rect class="card" width="902" height="80" rx="18"/>
+      <text class="company" x="26" y="30">ISx4</text>
+      <text class="role" x="26" y="50">Principal Data Scientist / AI Team Lead</text>
+      <text class="body" x="26" y="68">Leading applied AI delivery across LLM systems, internal assistants, agent observability, and enterprise AI workflows.</text>
+    </g>
+
+    <g transform="translate(72 238)">
+      <rect class="date-pill" width="72" height="28" rx="14"/>
+      <text class="date" x="20" y="18">2025</text>
+    </g>
+    <g transform="translate(226 230)">
+      <rect class="card" width="902" height="74" rx="18"/>
+      <text class="company" x="26" y="29">Aurora Energy Research</text>
+      <text class="role" x="26" y="49">Data Scientist</text>
+      <text class="body" x="26" y="66">Applied modelling and data science work in the energy research domain.</text>
+    </g>
+
+    <g transform="translate(72 330)">
+      <rect class="date-pill" width="96" height="28" rx="14"/>
+      <text class="date" x="17" y="18">2024 -&gt; now</text>
+    </g>
+    <g transform="translate(226 322)">
+      <rect class="card" width="902" height="80" rx="18"/>
+      <text class="company" x="26" y="30">Queen&apos;s University Belfast</text>
+      <text class="role" x="26" y="50">Visiting Fellow / ML Research</text>
+      <text class="body" x="26" y="68">Research across machine learning, computer vision, reliable visual inference, and applied AI.</text>
+    </g>
+
+    <g transform="translate(72 422)">
+      <rect class="date-pill" width="96" height="28" rx="14"/>
+      <text class="date" x="17" y="18">2020 -&gt; 2024</text>
+    </g>
+    <g transform="translate(226 414)">
+      <rect class="card" width="902" height="80" rx="18"/>
+      <text class="company" x="26" y="30">Queen&apos;s University Belfast</text>
+      <text class="role" x="26" y="50">PhD Researcher</text>
+      <text class="body" x="26" y="68">Doctoral research in machine learning and computer vision, spanning visual inference, representation learning, and applied AI.</text>
+    </g>
+
+    <g transform="translate(72 514)">
+      <rect class="date-pill" width="96" height="28" rx="14"/>
+      <text class="date" x="17" y="18">2017 -&gt; 2020</text>
+    </g>
+    <g transform="translate(226 506)">
+      <rect class="card" width="902" height="74" rx="18"/>
+      <text class="company" x="26" y="29">TotalEnergies</text>
+      <text class="role" x="26" y="49">Technical / data-facing experience</text>
+      <text class="body" x="26" y="66">Early industry exposure across technical, analytical, and data-informed workflows.</text>
+    </g>
+
+    <g transform="translate(72 606)">
+      <rect class="date-pill" width="96" height="28" rx="14"/>
+      <text class="date" x="17" y="18">2016 -&gt; 2017</text>
+    </g>
+    <g transform="translate(226 598)">
+      <rect class="card" width="902" height="74" rx="18"/>
+      <text class="company" x="26" y="29">Sqyte</text>
+      <text class="role" x="26" y="49">Data Scientist</text>
+      <text class="body" x="26" y="66">Applied data science and analytics work across early production and business-facing workflows.</text>
+    </g>
+
+    <g transform="translate(72 698)">
+      <rect class="date-pill" width="96" height="28" rx="14"/>
+      <text class="date" x="17" y="18">2014 -&gt; 2016</text>
+    </g>
+    <g transform="translate(226 690)">
+      <rect class="card" width="902" height="74" rx="18"/>
+      <text class="company" x="26" y="29">Hayat Kimya</text>
+      <text class="role" x="26" y="49">Automation Engineer</text>
+      <text class="body" x="26" y="66">Industrial automation, technical systems, operations, and structured problem-solving.</text>
+    </g>
+
+    <g transform="translate(72 790)">
+      <rect class="date-pill" width="96" height="28" rx="14"/>
+      <text class="date" x="17" y="18">2012 -&gt; 2014</text>
+    </g>
+    <g transform="translate(226 782)">
+      <rect class="card" width="902" height="74" rx="18"/>
+      <text class="company" x="26" y="29">Procter &amp; Gamble</text>
+      <text class="role" x="26" y="49">Manufacturing Engineer</text>
+      <text class="body" x="26" y="66">Manufacturing engineering foundation in high-standard industrial environments and operational problem-solving.</text>
+    </g>
+
+    <g>
+      <circle cx="196" cy="160" r="8.5" fill="#FFFFFF" stroke="#72D0BD" stroke-width="2"/>
+      <circle cx="196" cy="252" r="8.5" fill="#FFFFFF" stroke="#8AD0FF" stroke-width="2"/>
+      <circle cx="196" cy="344" r="8.5" fill="#FFFFFF" stroke="#9BA9FF" stroke-width="2"/>
+      <circle cx="196" cy="436" r="8.5" fill="#FFFFFF" stroke="#B7A6FF" stroke-width="2"/>
+      <circle cx="196" cy="528" r="8.5" fill="#FFFFFF" stroke="#D9BE73" stroke-width="2"/>
+      <circle cx="196" cy="620" r="8.5" fill="#FFFFFF" stroke="#9BA9FF" stroke-width="2"/>
+      <circle cx="196" cy="712" r="8.5" fill="#FFFFFF" stroke="#72D0BD" stroke-width="2"/>
+      <circle cx="196" cy="804" r="8.5" fill="#FFFFFF" stroke="#8AD0FF" stroke-width="2"/>
+
+      <circle cx="196" cy="160" r="4" fill="#72D0BD">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="4.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="196" cy="252" r="4" fill="#8AD0FF">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="4.8s" begin="0.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="196" cy="344" r="4" fill="#9BA9FF">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="4.8s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="196" cy="436" r="4" fill="#B7A6FF">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="4.8s" begin="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="196" cy="528" r="4" fill="#D9BE73">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="4.8s" begin="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="196" cy="620" r="4" fill="#9BA9FF">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="4.8s" begin="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="196" cy="712" r="4" fill="#72D0BD">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="4.8s" begin="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="196" cy="804" r="4" fill="#8AD0FF">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="4.8s" begin="3.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
