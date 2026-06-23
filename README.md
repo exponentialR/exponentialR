@@ -13,7 +13,7 @@ I lead applied AI work at [ISx4](https://isx4.com), building production-oriented
 
 </details>
 
-<details open>
+<details>
 <summary><strong>&#128736; ~/selected-ai-systems</strong></summary>
 
 A few representative systems where the signal is in the delivery shape: translating ambiguous AI opportunities into systems teams can evaluate, operate, and improve. Some are private, internal, or client-facing, so I focus on the engineering pattern rather than repository links.
@@ -38,7 +38,7 @@ Together, these projects reflect the work I enjoy most: moving from unclear AI o
 
 </details>
 
-<details open>
+<details>
 <summary><strong>&#9881; ~/engineering-profile</strong></summary>
 
 How I tend to create value: by moving between research, systems thinking, product judgement, and production engineering without treating them as separate worlds.
@@ -123,6 +123,9 @@ I am also a Visiting Fellow at Queen's University Belfast, where my work connect
 - **[AlzhiNet: Traversing from 2D-CNN to 3D-CNN, Towards Early Detection and Diagnosis of Alzheimer's Disease](https://doi.org/10.1007/s12539-025-00764-w)**  
   Interdisciplinary Sciences: Computational Life Sciences, 2026. Hybrid 2D/3D CNN representations for Alzheimer's disease diagnosis.  
   [arXiv](https://arxiv.org/abs/2410.02714)
+
+- **[ConPose: A Jointly Trained, Single-Pass RGB Detection-and-Pose Framework for Intermeshed Steel Connections](https://doi.org/10.1007/s00138-026-01863-4)**  
+  Machine Vision and Applications, 2026. Joint detection and 6-DoF pose estimation for intermeshed steel connections using RGB-only, single-pass inference.
 
 - **[ISC-Perception: A Hybrid Computer Vision Dataset for Object Detection in Novel Steel Assembly](https://arxiv.org/abs/2511.03098)**  
   arXiv, 2025. Hybrid synthetic and real-world perception dataset for intermeshed steel connection assembly.
