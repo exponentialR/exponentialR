@@ -1,0 +1,181 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Samuel Adebayo research hero</title>
+  <desc id="desc">A clean visual hero for research across computer vision, dyadic interaction, human-robot collaboration, industrial perception, medical AI, and reliable machine learning.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050C17"/>
+      <stop offset="0.55" stop-color="#0B1324"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <radialGradient id="wash" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(915 105) rotate(90) scale(260 420)">
+      <stop offset="0" stop-color="#8AA0FF" stop-opacity="0.2"/>
+      <stop offset="0.48" stop-color="#72D0BD" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#050C17" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accent" x1="72" y1="270" x2="590" y2="270" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#72D0BD"/>
+      <stop offset="0.38" stop-color="#8AD0FF"/>
+      <stop offset="0.7" stop-color="#B7A6FF"/>
+      <stop offset="1" stop-color="#D9BE73"/>
+    </linearGradient>
+
+    <linearGradient id="route" x1="760" y1="188" x2="1086" y2="188" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#72D0BD"/>
+      <stop offset="0.32" stop-color="#8AD0FF"/>
+      <stop offset="0.66" stop-color="#B7A6FF"/>
+      <stop offset="1" stop-color="#D9BE73"/>
+    </linearGradient>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#D7E2F0" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+
+    <filter id="shadow" x="18" y="18" width="1164" height="324" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+
+    <style>
+      .display {
+        font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      .mono {
+        font-family: ui-monospace, "SFMono-Regular", "Cascadia Code", "Segoe UI Mono", "Roboto Mono", "JetBrains Mono", "IBM Plex Mono", Consolas, "Liberation Mono", monospace;
+      }
+
+      .eyebrow {
+        fill: #72D0BD;
+        font-size: 12px;
+        font-weight: 760;
+        letter-spacing: 1.8px;
+      }
+
+      .title {
+        fill: #F8FAFC;
+        font-size: 42px;
+        font-weight: 780;
+      }
+
+      .subtitle {
+        fill: #CBD5E1;
+        font-size: 17px;
+        font-weight: 520;
+      }
+
+      .chip-text {
+        fill: #DCE6F3;
+        font-size: 10px;
+        font-weight: 720;
+        letter-spacing: 0.4px;
+      }
+
+      .node-label {
+        fill: #E2E8F0;
+        font-size: 10.5px;
+        font-weight: 720;
+      }
+
+      .node-meta {
+        fill: #94A3B8;
+        font-size: 9.5px;
+        font-weight: 620;
+      }
+
+      .icon-line {
+        fill: none;
+        stroke: #E2E8F0;
+        stroke-width: 1.7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        animate {
+          display: none;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <rect width="1200" height="360" fill="url(#wash)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="48" y="38" width="1104" height="284" rx="24" fill="#101724" fill-opacity="0.74" stroke="#D7E2F0" stroke-opacity="0.12"/>
+  </g>
+
+  <g class="display">
+    <text class="eyebrow" x="78" y="92">RESEARCH</text>
+    <text class="title" x="76" y="142">Human-centred AI, vision, and reliable ML</text>
+    <text class="subtitle" x="78" y="178">Computer vision research for dyadic interaction,</text>
+    <text class="subtitle" x="78" y="207">human intention inference, industrial perception, and applied ML.</text>
+  </g>
+
+  <g class="mono">
+    <path d="M78 246H604" stroke="url(#accent)" stroke-width="2.4" stroke-linecap="round"/>
+    <g transform="translate(78 262)">
+      <rect width="116" height="28" rx="14" fill="#111D2E" stroke="#72D0BD" stroke-opacity="0.52"/>
+      <text class="chip-text" x="18" y="18">COMPUTER VISION</text>
+    </g>
+    <g transform="translate(204 262)">
+      <rect width="138" height="28" rx="14" fill="#111D2E" stroke="#8AD0FF" stroke-opacity="0.52"/>
+      <text class="chip-text" x="18" y="18">DYADIC INTERACTION</text>
+    </g>
+    <g transform="translate(352 262)">
+      <rect width="142" height="28" rx="14" fill="#111D2E" stroke="#B7A6FF" stroke-opacity="0.52"/>
+      <text class="chip-text" x="18" y="18">POSE ESTIMATION</text>
+    </g>
+    <g transform="translate(504 262)">
+      <rect width="100" height="28" rx="14" fill="#111D2E" stroke="#D9BE73" stroke-opacity="0.52"/>
+      <text class="chip-text" x="18" y="18">RELIABLE ML</text>
+    </g>
+  </g>
+
+  <g class="mono" transform="translate(690 84)">
+    <path d="M70 104H396" stroke="#334155" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M70 104H396" stroke="url(#route)" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="36 290" stroke-dashoffset="326">
+      <animate attributeName="stroke-dashoffset" from="326" to="0" dur="7s" repeatCount="indefinite"/>
+    </path>
+
+    <g>
+      <circle cx="70" cy="104" r="18" fill="#101724" stroke="#72D0BD" stroke-width="2"/>
+      <path class="icon-line" d="M60 104C65 96 75 96 80 104C75 112 65 112 60 104Z"/>
+      <circle cx="70" cy="104" r="4" fill="#72D0BD"/>
+      <text class="node-label" x="36" y="148">gaze</text>
+      <text class="node-meta" x="25" y="164">SLYKLatent</text>
+    </g>
+
+    <g>
+      <circle cx="178" cy="104" r="18" fill="#101724" stroke="#8AD0FF" stroke-width="2"/>
+      <path class="icon-line" d="M169 107L174 112L187 96"/>
+      <path class="icon-line" d="M166 116C176 122 190 117 194 106"/>
+      <text class="node-label" x="138" y="148">intent</text>
+      <text class="node-meta" x="126" y="164">QUB-PHEO</text>
+    </g>
+
+    <g>
+      <circle cx="286" cy="104" r="18" fill="#101724" stroke="#B7A6FF" stroke-width="2"/>
+      <path class="icon-line" d="M276 112V100L286 93L296 100V112"/>
+      <path class="icon-line" d="M274 112H298"/>
+      <text class="node-label" x="252" y="148">pose</text>
+      <text class="node-meta" x="245" y="164">ConPose</text>
+    </g>
+
+    <g>
+      <circle cx="396" cy="104" r="18" fill="#101724" stroke="#D9BE73" stroke-width="2"/>
+      <path class="icon-line" d="M386 107C381 101 386 94 393 97C396 91 406 94 404 102C412 105 409 116 400 115C395 122 385 116 386 107Z"/>
+      <text class="node-label" x="358" y="148">applied ML</text>
+      <text class="node-meta" x="362" y="164">AlzhiNet</text>
+    </g>
+
+    <path d="M396 122C356 178 246 198 160 188" stroke="#334155" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+    <path d="M396 122C356 178 246 198 160 188" stroke="url(#route)" stroke-width="2" stroke-linecap="round" stroke-dasharray="26 270" stroke-dashoffset="270" opacity="0.62" fill="none">
+      <animate attributeName="stroke-dashoffset" from="270" to="0" dur="8.2s" repeatCount="indefinite"/>
+    </path>
+    <text class="node-meta" x="90" y="218">datasets · calibration · annotation tools</text>
+  </g>
+</svg>
