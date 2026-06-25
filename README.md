@@ -190,3 +190,4 @@ Open to conversations around **AI Engineering**, **Applied AI Leadership**, **ML
 </p>
 
 </details>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=exponentialR&label=Profile%20views&color=0e75b6&style=flat" alt="eponentialR" /> </p>
