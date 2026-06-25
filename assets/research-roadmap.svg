@@ -1,0 +1,264 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Samuel Adebayo research roadmap</title>
+  <desc id="desc">A visual roadmap of Samuel Adebayo's research across dyadic interaction, gaze and perception, industrial computer vision, medical AI, and research tools.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="1500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FBFF"/>
+      <stop offset="0.56" stop-color="#EEF5FA"/>
+      <stop offset="1" stop-color="#F7F8FC"/>
+    </linearGradient>
+
+    <radialGradient id="wash" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 110) rotate(90) scale(360 470)">
+      <stop offset="0" stop-color="#8AA0FF" stop-opacity="0.16"/>
+      <stop offset="0.48" stop-color="#72D0BD" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#F8FBFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="route" x1="160" y1="350" x2="160" y2="1238" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#72D0BD"/>
+      <stop offset="0.28" stop-color="#8AD0FF"/>
+      <stop offset="0.55" stop-color="#9BA9FF"/>
+      <stop offset="0.78" stop-color="#D9BE73"/>
+      <stop offset="1" stop-color="#76B852"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="86" y1="210" x2="1114" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#72D0BD"/>
+      <stop offset="0.34" stop-color="#8AD0FF"/>
+      <stop offset="0.68" stop-color="#B7A6FF"/>
+      <stop offset="1" stop-color="#D9BE73"/>
+    </linearGradient>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#94A3B8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+
+    <filter id="shadow" x="38" y="36" width="1124" height="1396" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#64748B" flood-opacity="0.16"/>
+    </filter>
+
+    <style>
+      .display {
+        font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      .mono {
+        font-family: ui-monospace, "SFMono-Regular", "Cascadia Code", "Segoe UI Mono", "Roboto Mono", "JetBrains Mono", "IBM Plex Mono", Consolas, "Liberation Mono", monospace;
+      }
+
+      .eyebrow {
+        fill: #0F766E;
+        font-size: 12px;
+        font-weight: 760;
+        letter-spacing: 1.8px;
+      }
+
+      .title {
+        fill: #0F172A;
+        font-size: 46px;
+        font-weight: 780;
+      }
+
+      .subtitle {
+        fill: #475569;
+        font-size: 17px;
+        font-weight: 500;
+      }
+
+      .section-title {
+        fill: #0F172A;
+        font-size: 24px;
+        font-weight: 760;
+      }
+
+      .section-copy {
+        fill: #475569;
+        font-size: 14px;
+        font-weight: 510;
+      }
+
+      .node-label {
+        fill: #0F172A;
+        font-size: 14.4px;
+        font-weight: 740;
+      }
+
+      .node-meta {
+        fill: #64748B;
+        font-size: 11.5px;
+        font-weight: 620;
+      }
+
+      .chip {
+        fill: #FFFFFF;
+        stroke: #CBD5E1;
+        stroke-opacity: 0.88;
+      }
+
+      .chip-text {
+        fill: #334155;
+        font-size: 10.8px;
+        font-weight: 720;
+      }
+
+      .small {
+        fill: #64748B;
+        font-size: 11px;
+        font-weight: 620;
+      }
+
+      .card {
+        fill: #FFFFFF;
+        stroke: #CBD5E1;
+        stroke-opacity: 0.78;
+      }
+
+      .icon-line {
+        fill: none;
+        stroke: #0F172A;
+        stroke-width: 2.2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        animate {
+          display: none;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <rect width="1200" height="1500" fill="url(#grid)"/>
+  <rect width="1200" height="1500" fill="url(#wash)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="58" y="54" width="1084" height="1372" rx="28" fill="#FFFFFF" fill-opacity="0.92" stroke="#CBD5E1" stroke-opacity="0.8"/>
+  </g>
+
+  <g class="display">
+    <text class="eyebrow" x="92" y="118">RESEARCH MAP</text>
+    <text class="title" x="90" y="170">Human-centred AI, vision, and reliable ML</text>
+    <text class="subtitle" x="92" y="205">A compact view of my research streams, publications, datasets, and tools.</text>
+    <path d="M92 226H1108" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g class="mono">
+    <g transform="translate(92 252)">
+      <rect class="chip" width="132" height="30" rx="15"/>
+      <text class="chip-text" x="18" y="20">COMPUTER VISION</text>
+    </g>
+    <g transform="translate(236 252)">
+      <rect class="chip" width="148" height="30" rx="15"/>
+      <text class="chip-text" x="18" y="20">DYADIC INTERACTION</text>
+    </g>
+    <g transform="translate(396 252)">
+      <rect class="chip" width="188" height="30" rx="15"/>
+      <text class="chip-text" x="18" y="20">HUMAN-ROBOT COLLAB</text>
+    </g>
+    <g transform="translate(596 252)">
+      <rect class="chip" width="102" height="30" rx="15"/>
+      <text class="chip-text" x="18" y="20">RELIABLE ML</text>
+    </g>
+    <g transform="translate(710 252)">
+      <rect class="chip" width="142" height="30" rx="15"/>
+      <text class="chip-text" x="18" y="20">POSE ESTIMATION</text>
+    </g>
+  </g>
+
+  <g class="mono">
+    <path d="M160 342V1240" stroke="#CBD5E1" stroke-width="5" stroke-linecap="round"/>
+    <path d="M160 1240V342" stroke="url(#route)" stroke-width="5" stroke-linecap="round" stroke-dasharray="120 778" stroke-dashoffset="898">
+      <animate attributeName="stroke-dashoffset" from="898" to="0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="160" cy="1240" r="6" fill="#72D0BD">
+      <animate attributeName="cy" values="1240;342" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#76B852;#D9BE73;#9BA9FF;#8AD0FF;#72D0BD" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g class="display">
+    <g transform="translate(92 330)">
+      <circle cx="68" cy="48" r="22" fill="#E8FFF8" stroke="#72D0BD" stroke-width="2"/>
+      <path class="icon-line" d="M57 48L63 54L75 42"/>
+      <path class="icon-line" d="M55 57C64 65 77 64 84 55"/>
+      <rect class="card" x="128" y="0" width="898" height="128" rx="20"/>
+      <text class="section-title" x="156" y="36">Dyadic interaction and human-robot collaboration</text>
+      <text class="section-copy" x="156" y="64">Visual cues such as gaze, hands, objects, and motion for human intention inference in collaborative assembly.</text>
+      <text class="node-label" x="156" y="96">PhD Thesis</text>
+      <text class="node-meta" x="248" y="96">2024</text>
+      <text class="node-label" x="306" y="96">QUB-PHEO</text>
+      <text class="node-meta" x="400" y="96">IEEE Access 2024</text>
+      <text class="node-label" x="536" y="96">Hand-Eye-Object Tracking</text>
+      <text class="node-meta" x="746" y="96">IFAC 2022</text>
+    </g>
+
+    <g transform="translate(92 510)">
+      <circle cx="68" cy="48" r="22" fill="#F1F5FF" stroke="#8AD0FF" stroke-width="2"/>
+      <path class="icon-line" d="M51 48C56 39 64 35 68 35C72 35 80 39 85 48C80 57 72 61 68 61C64 61 56 57 51 48Z"/>
+      <circle cx="68" cy="48" r="7" fill="none" stroke="#0F172A" stroke-width="2"/>
+      <rect class="card" x="128" y="0" width="898" height="128" rx="20"/>
+      <text class="section-title" x="156" y="36">Gaze, visual cues, and reliable perception</text>
+      <text class="section-copy" x="156" y="64">Representation learning for gaze estimation, visual signal modelling, and robust human-centred perception.</text>
+      <text class="node-label" x="156" y="96">SLYKLatent</text>
+      <text class="node-meta" x="264" y="96">IEEE THMS 2025</text>
+      <text class="node-label" x="414" y="96">Dyadic motion prediction baselines</text>
+      <text class="node-meta" x="678" y="96">IFAC 2025</text>
+    </g>
+
+    <g transform="translate(92 690)">
+      <circle cx="68" cy="48" r="22" fill="#F6F2FF" stroke="#9BA9FF" stroke-width="2"/>
+      <path class="icon-line" d="M58 58V43L68 36L78 43V58"/>
+      <path class="icon-line" d="M54 58H82"/>
+      <path class="icon-line" d="M63 58V49H73V58"/>
+      <rect class="card" x="128" y="0" width="898" height="128" rx="20"/>
+      <text class="section-title" x="156" y="36">Industrial computer vision and robotic assembly</text>
+      <text class="section-copy" x="156" y="64">Object detection, RGB-only 6-DoF pose estimation, synthetic-to-real perception, and robotic assembly.</text>
+      <text class="node-label" x="156" y="96">ConPose</text>
+      <text class="node-meta" x="236" y="96">MVA 2026</text>
+      <text class="node-label" x="330" y="96">ISC-Perception</text>
+      <text class="node-meta" x="464" y="96">arXiv 2025</text>
+      <text class="node-label" x="564" y="96">ISARC robotics strategy</text>
+      <text class="node-meta" x="760" y="96">2025</text>
+    </g>
+
+    <g transform="translate(92 870)">
+      <circle cx="68" cy="48" r="22" fill="#FFF9E8" stroke="#D9BE73" stroke-width="2"/>
+      <path class="icon-line" d="M59 50C53 44 57 36 65 39C68 33 78 36 76 44C84 47 81 58 72 57C67 64 57 59 59 50Z"/>
+      <path class="icon-line" d="M66 45H73"/>
+      <path class="icon-line" d="M64 53H75"/>
+      <rect class="card" x="128" y="0" width="898" height="128" rx="20"/>
+      <text class="section-title" x="156" y="36">Medical and applied machine learning</text>
+      <text class="section-copy" x="156" y="64">Applied deep learning for diagnostic imaging and autonomous perception problems.</text>
+      <text class="node-label" x="156" y="96">AlzhiNet</text>
+      <text class="node-meta" x="238" y="96">Interdisciplinary Sciences 2026</text>
+      <text class="node-label" x="478" y="96">Autonomous robotic car</text>
+      <text class="node-meta" x="670" y="96">IJCA 2021</text>
+    </g>
+
+    <g transform="translate(92 1050)">
+      <circle cx="68" cy="48" r="22" fill="#ECFDF5" stroke="#76B852" stroke-width="2"/>
+      <path class="icon-line" d="M55 44H81V60H55Z"/>
+      <path class="icon-line" d="M62 44V39H74V44"/>
+      <path class="icon-line" d="M61 52H75"/>
+      <rect class="card" x="128" y="0" width="898" height="154" rx="20"/>
+      <text class="section-title" x="156" y="36">Datasets, calibration tools, and reproducible artifacts</text>
+      <text class="section-copy" x="156" y="64">Research infrastructure for multi-view video, annotation quality, preprocessing, and public dataset reuse.</text>
+      <text class="node-label" x="156" y="96">QUB-PHEO Dataset</text>
+      <text class="node-meta" x="316" y="96">GitHub / Zenodo</text>
+      <text class="node-label" x="456" y="96">QUBVidCalib</text>
+      <text class="node-label" x="590" y="96">aVerify</text>
+      <text class="node-label" x="676" y="96">Ormedian-Utils</text>
+      <text class="small" x="156" y="125">Companion links can sit below this graphic on the page for direct access to papers and repositories.</text>
+    </g>
+  </g>
+
+  <g class="display">
+    <rect x="92" y="1288" width="1016" height="84" rx="20" fill="#0F172A"/>
+    <text x="124" y="1326" fill="#F8FBFF" font-size="18" font-weight="760">Full publication list</text>
+    <text x="124" y="1354" fill="#CBD5E1" font-size="14" font-weight="520">Google Scholar: scholar.google.com/citations?user=spfLwBEAAAAJ</text>
+    <text x="856" y="1354" fill="#72D0BD" font-size="13" font-weight="740">updated 2026</text>
+  </g>
+</svg>
