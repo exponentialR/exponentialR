@@ -110,72 +110,67 @@
 
   <g class="display">
     <text class="eyebrow" x="78" y="92">RESEARCH</text>
-    <text class="title" x="76" y="142">Human-centred AI, vision, and reliable ML</text>
-    <text class="subtitle" x="78" y="178">Computer vision research for dyadic interaction,</text>
-    <text class="subtitle" x="78" y="207">human intention inference, industrial perception, and applied ML.</text>
+    <text class="title" x="76" y="128">Human-centred AI, vision,</text>
+    <text class="title" x="76" y="172">and reliable ML</text>
+    <text class="subtitle" x="78" y="208">Computer vision research for dyadic interaction,</text>
+    <text class="subtitle" x="78" y="233">human intention inference, industrial perception, and applied ML.</text>
   </g>
 
   <g class="mono">
-    <path d="M78 246H604" stroke="url(#accent)" stroke-width="2.4" stroke-linecap="round"/>
-    <g transform="translate(78 262)">
+    <path d="M78 252H604" stroke="url(#accent)" stroke-width="2.4" stroke-linecap="round"/>
+    <g transform="translate(78 268)">
       <rect width="116" height="28" rx="14" fill="#111D2E" stroke="#72D0BD" stroke-opacity="0.52"/>
       <text class="chip-text" x="18" y="18">COMPUTER VISION</text>
     </g>
-    <g transform="translate(204 262)">
+    <g transform="translate(204 268)">
       <rect width="138" height="28" rx="14" fill="#111D2E" stroke="#8AD0FF" stroke-opacity="0.52"/>
       <text class="chip-text" x="18" y="18">DYADIC INTERACTION</text>
     </g>
-    <g transform="translate(352 262)">
+    <g transform="translate(352 268)">
       <rect width="142" height="28" rx="14" fill="#111D2E" stroke="#B7A6FF" stroke-opacity="0.52"/>
       <text class="chip-text" x="18" y="18">POSE ESTIMATION</text>
     </g>
-    <g transform="translate(504 262)">
+    <g transform="translate(504 268)">
       <rect width="100" height="28" rx="14" fill="#111D2E" stroke="#D9BE73" stroke-opacity="0.52"/>
       <text class="chip-text" x="18" y="18">RELIABLE ML</text>
     </g>
   </g>
 
-  <g class="mono" transform="translate(690 84)">
-    <path d="M70 104H396" stroke="#334155" stroke-width="1.6" stroke-linecap="round"/>
-    <path d="M70 104H396" stroke="url(#route)" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="36 290" stroke-dashoffset="326">
-      <animate attributeName="stroke-dashoffset" from="326" to="0" dur="7s" repeatCount="indefinite"/>
-    </path>
+  <g class="display" transform="translate(706 78)">
+    <text x="0" y="0" fill="#E2E8F0" font-size="13" font-weight="760">Selected research streams</text>
+    <text x="0" y="22" fill="#94A3B8" font-size="10.5" font-weight="620">papers, datasets, and tools grouped by theme</text>
 
-    <g>
-      <circle cx="70" cy="104" r="18" fill="#101724" stroke="#72D0BD" stroke-width="2"/>
-      <path class="icon-line" d="M60 104C65 96 75 96 80 104C75 112 65 112 60 104Z"/>
-      <circle cx="70" cy="104" r="4" fill="#72D0BD"/>
-      <text class="node-label" x="36" y="148">gaze</text>
-      <text class="node-meta" x="25" y="164">SLYKLatent</text>
+    <g transform="translate(0 42)">
+      <rect width="398" height="48" rx="14" fill="#0D1626" stroke="#72D0BD" stroke-opacity="0.34"/>
+      <circle cx="25" cy="24" r="9" fill="#72D0BD"/>
+      <path d="M20.5 24L23.7 27.2L30.5 20.4" stroke="#0D1626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="48" y="21" fill="#F8FAFC" font-size="13" font-weight="760">Dyadic interaction and HRI</text>
+      <text x="48" y="37" fill="#94A3B8" font-size="10.2" font-weight="620">QUB-PHEO · Hand-Eye-Object · PhD thesis</text>
     </g>
 
-    <g>
-      <circle cx="178" cy="104" r="18" fill="#101724" stroke="#8AD0FF" stroke-width="2"/>
-      <path class="icon-line" d="M169 107L174 112L187 96"/>
-      <path class="icon-line" d="M166 116C176 122 190 117 194 106"/>
-      <text class="node-label" x="138" y="148">intent</text>
-      <text class="node-meta" x="126" y="164">QUB-PHEO</text>
+    <g transform="translate(0 100)">
+      <rect width="398" height="48" rx="14" fill="#0D1626" stroke="#8AD0FF" stroke-opacity="0.34"/>
+      <circle cx="25" cy="24" r="9" fill="#8AD0FF"/>
+      <path d="M17 24C21 18 29 18 33 24C29 30 21 30 17 24Z" fill="none" stroke="#0D1626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="25" cy="24" r="3" fill="#0D1626"/>
+      <text x="48" y="21" fill="#F8FAFC" font-size="13" font-weight="760">Gaze and reliable visual perception</text>
+      <text x="48" y="37" fill="#94A3B8" font-size="10.2" font-weight="620">SLYKLatent · motion baselines · video tools</text>
     </g>
 
-    <g>
-      <circle cx="286" cy="104" r="18" fill="#101724" stroke="#B7A6FF" stroke-width="2"/>
-      <path class="icon-line" d="M276 112V100L286 93L296 100V112"/>
-      <path class="icon-line" d="M274 112H298"/>
-      <text class="node-label" x="252" y="148">pose</text>
-      <text class="node-meta" x="245" y="164">ConPose</text>
+    <g transform="translate(0 158)">
+      <rect width="398" height="48" rx="14" fill="#0D1626" stroke="#B7A6FF" stroke-opacity="0.34"/>
+      <circle cx="25" cy="24" r="9" fill="#B7A6FF"/>
+      <path d="M19 29V22L25 18L31 22V29M17 29H33" stroke="#0D1626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="48" y="21" fill="#F8FAFC" font-size="13" font-weight="760">Industrial computer vision</text>
+      <text x="48" y="37" fill="#94A3B8" font-size="10.2" font-weight="620">ConPose · ISC-Perception · ISARC robotics</text>
     </g>
 
-    <g>
-      <circle cx="396" cy="104" r="18" fill="#101724" stroke="#D9BE73" stroke-width="2"/>
-      <path class="icon-line" d="M386 107C381 101 386 94 393 97C396 91 406 94 404 102C412 105 409 116 400 115C395 122 385 116 386 107Z"/>
-      <text class="node-label" x="358" y="148">applied ML</text>
-      <text class="node-meta" x="362" y="164">AlzhiNet</text>
+    <g transform="translate(0 216)">
+      <rect width="398" height="48" rx="14" fill="#0D1626" stroke="#D9BE73" stroke-opacity="0.34"/>
+      <circle cx="25" cy="24" r="9" fill="#D9BE73"/>
+      <path d="M20 26C17 22 20 18 24 20C26 16 31 19 30 23C35 25 33 31 28 30C25 34 19 31 20 26Z" fill="none" stroke="#0D1626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="48" y="21" fill="#F8FAFC" font-size="13" font-weight="760">Medical and applied ML</text>
+      <text x="48" y="37" fill="#94A3B8" font-size="10.2" font-weight="620">AlzhiNet · autonomous robotic car</text>
     </g>
-
-    <path d="M396 122C356 178 246 198 160 188" stroke="#334155" stroke-width="1.4" stroke-linecap="round" fill="none"/>
-    <path d="M396 122C356 178 246 198 160 188" stroke="url(#route)" stroke-width="2" stroke-linecap="round" stroke-dasharray="26 270" stroke-dashoffset="270" opacity="0.62" fill="none">
-      <animate attributeName="stroke-dashoffset" from="270" to="0" dur="8.2s" repeatCount="indefinite"/>
-    </path>
-    <text class="node-meta" x="90" y="218">datasets · calibration · annotation tools</text>
   </g>
 </svg>
