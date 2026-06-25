@@ -8,13 +8,13 @@ I work across computer vision, dyadic interaction, human intention inference, an
 
 | Theme | Selected outputs |
 | --- | --- |
-| 🤝 **Dyadic Interaction and HRI** | [PhD thesis](https://pure.qub.ac.uk/en/studentTheses/deep-learning-of-dyadic-interaction-visual-cues-for-human-robot-c/) · [QUB-PHEO](https://doi.org/10.1109/ACCESS.2024.3485162) · [Hand-Eye-Object Tracking](https://doi.org/10.1016/j.ifacol.2022.07.627) |
-| 👁️ **Gaze and Visual Perception** | [SLYKLatent](https://doi.org/10.1109/THMS.2025.3553404) · [Dyadic Motion Prediction](https://doi.org/10.1016/j.ifacol.2025.12.064) |
-| 🏗️ **Industrial Computer Vision** | [ConPose](https://doi.org/10.1007/s00138-026-01863-4) · [ISC-Perception](https://arxiv.org/abs/2511.03098) · [ISARC Robotics Strategy](https://doi.org/10.22260/ISARC2025/0063) |
-| 🧠 **Medical and Applied ML** | [AlzhiNet](https://doi.org/10.1007/s12539-025-00764-w) · [Autonomous Robotic Car](https://ijcaonline.org/archives/volume183/number13/31985-2021921421/) |
-| 🧰 **Datasets and Tools** | [QUB-PHEO Dataset](https://github.com/exponentialR/QUB-PHEO) · [QUBVidCalib](https://github.com/exponentialR/qubvidcalib) · [aVerify](https://github.com/exponentialR/averify) · [Ormedian-Utils](https://github.com/exponentialR/ormedian-utils/) |
+| **Dyadic Interaction and HRI** | [PhD thesis](https://pure.qub.ac.uk/en/studentTheses/deep-learning-of-dyadic-interaction-visual-cues-for-human-robot-c/) · [QUB-PHEO](https://doi.org/10.1109/ACCESS.2024.3485162) · [Hand-Eye-Object Tracking](https://doi.org/10.1016/j.ifacol.2022.07.627) |
+| **Gaze and Visual Perception** | [SLYKLatent](https://doi.org/10.1109/THMS.2025.3553404) · [Dyadic Motion Prediction](https://doi.org/10.1016/j.ifacol.2025.12.064) |
+| **Industrial Computer Vision** | [ConPose](https://doi.org/10.1007/s00138-026-01863-4) · [ISC-Perception](https://arxiv.org/abs/2511.03098) · [ISARC Robotics Strategy](https://doi.org/10.22260/ISARC2025/0063) |
+| **Medical and Applied ML** | [AlzhiNet](https://doi.org/10.1007/s12539-025-00764-w) · [Autonomous Robotic Car](https://ijcaonline.org/archives/volume183/number13/31985-2021921421/) |
+| **Datasets and Tools** | [QUB-PHEO Dataset](https://github.com/exponentialR/QUB-PHEO) · [QUBVidCalib](https://github.com/exponentialR/qubvidcalib) · [aVerify](https://github.com/exponentialR/averify) · [Ormedian-Utils](https://github.com/exponentialR/ormedian-utils/) |
 
-## 🤝 Dyadic Interaction and Human-Robot Collaboration
+## Dyadic Interaction and Human-Robot Collaboration
 
 Research on how visual cues such as gaze, hands, objects, and motion can support human intention inference in collaborative assembly.
 
@@ -28,7 +28,7 @@ Research on how visual cues such as gaze, hands, objects, and motion can support
 
 **Related artifacts:** [QUB-PHEO Dataset](https://github.com/exponentialR/QUB-PHEO) · [PHEO Zenodo Dataset](https://doi.org/10.5281/zenodo.13956074) · [QUB-PHEO Preprocessing Repository](https://doi.org/10.5281/zenodo.13956098)
 
-## 👁️ Gaze, Visual Cues, and Reliable Perception
+## Gaze, Visual Cues, and Reliable Perception
 
 Work on gaze estimation, facial feature learning, visual signal modelling, and robust human-centred perception.
 
@@ -40,7 +40,7 @@ Work on gaze estimation, facial feature learning, visual signal modelling, and r
 
 **Related tools:** [QUBVidCalib](https://github.com/exponentialR/qubvidcalib) · [aVerify](https://github.com/exponentialR/averify)
 
-## 🏗️ Industrial Computer Vision and Robotic Assembly
+## Industrial Computer Vision and Robotic Assembly
 
 Applied vision systems for object detection, RGB-only 6-DoF pose estimation, synthetic-to-real perception, and robotic assembly workflows.
 
@@ -52,7 +52,7 @@ Applied vision systems for object detection, RGB-only 6-DoF pose estimation, syn
 
 **Related tools:** [QUBVidCalib](https://github.com/exponentialR/qubvidcalib) · [aVerify](https://github.com/exponentialR/averify) · [Ormedian-Utils](https://github.com/exponentialR/ormedian-utils/)
 
-## 🧠 Medical and Applied Machine Learning
+## Medical and Applied Machine Learning
 
 Deep learning for diagnostic imaging and applied intelligent systems.
 
@@ -61,7 +61,7 @@ Deep learning for diagnostic imaging and applied intelligent systems.
 | [AlzhiNet: Traversing from 2D-CNN to 3D-CNN, Towards Early Detection and Diagnosis of Alzheimer's Disease](https://doi.org/10.1007/s12539-025-00764-w) | Interdisciplinary Sciences: Computational Life Sciences, 2026 | [Paper](https://doi.org/10.1007/s12539-025-00764-w) · [arXiv](https://arxiv.org/abs/2410.02714) |
 | [Application of Deep Learning to Autonomous Robotic Car](https://ijcaonline.org/archives/volume183/number13/31985-2021921421/) | International Journal of Computer Applications, 2021 | [Paper](https://ijcaonline.org/archives/volume183/number13/31985-2021921421/) |
 
-## 🧰 Research Software and Utilities
+## Research Software and Utilities
 
 Tools and utilities supporting data preparation, calibration, annotation verification, and reusable computer vision workflows.
 

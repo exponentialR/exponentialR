@@ -7,30 +7,30 @@
 </p>
 
 <details open>
-<summary><strong>&#128204; ~/about</strong></summary>
+<summary><strong>~/about</strong></summary>
 
 I lead applied AI work at [ISx4](https://isx4.com), building production-oriented ML, LLM, agentic, and computer vision systems. My work sits between research depth and engineering delivery: turning ambiguous AI opportunities into reliable systems with evaluation, observability, security, and workflow fit built in from the start.
 
 </details>
 
 <details>
-<summary><strong>&#128736; ~/selected-ai-systems</strong></summary>
+<summary><strong>~/selected-ai-systems</strong></summary>
 
 A few representative systems where the signal is in the delivery shape: translating ambiguous AI opportunities into systems teams can evaluate, operate, and improve. Some are private, internal, or client-facing, so I focus on the engineering pattern rather than repository links.
 
-- &#127967; **RunAI for GAA**  
+- **RunAI for GAA**
   Applied AI for sports and organisational workflows, from product discovery through deployment-aware ML delivery.  
   `workflow modelling` &#183; `applied ML` &#183; `product discovery` &#183; `operational fit`
 
-- &#129302; **ISx4 ASQ -- Internal AI Assistant**  
+- **ISx4 ASQ -- Internal AI Assistant**
   Enterprise assistant for ISx4 with governance, knowledge access, evaluation, and client-readiness built into the workflow.  
   `LLM systems` &#183; `enterprise knowledge access` &#183; `governance` &#183; `evaluation`
 
-- &#128225; **AOP -- Agent Observability Platform**  
+- **AOP -- Agent Observability Platform**
   Platform work for observing, evaluating, and improving AI agent behaviour in production-like environments.  
   `tracing` &#183; `failure analysis` &#183; `feedback loops` &#183; `agent operations`
 
-- &#9992; **Customer Handling AI for Aviation Client**  
+- **Customer Handling AI for Aviation Client**
   Enterprise AI for aviation customer-handling workflows where safety awareness, reliability, and operational constraints matter.  
   `workflow automation` &#183; `customer intelligence` &#183; `reliability` &#183; `operational constraints`
 
@@ -39,30 +39,30 @@ Together, these projects reflect the work I enjoy most: moving from unclear AI o
 </details>
 
 <details>
-<summary><strong>&#9881; ~/engineering-profile</strong></summary>
+<summary><strong>~/engineering-profile</strong></summary>
 
 How I tend to create value: by moving between research, systems thinking, product judgement, and production engineering without treating them as separate worlds.
 
-- &#129504; **Shape the AI opportunity**  
+- **Shape the AI opportunity**
   Turn ambiguous ideas into scoped systems, delivery plans, evaluation criteria, and practical technical direction.  
   `discovery` &#183; `architecture` &#183; `technical leadership`
 
-- &#129302; **Build LLM and agentic systems**  
+- **Build LLM and agentic systems**
   Design assistants, retrieval workflows, tool-using agents, governance paths, and feedback loops that teams can trust.  
   `RAG` &#183; `agents` &#183; `evaluation` &#183; `governance`
 
-- &#128065; **Translate ML and computer vision research**  
+- **Translate ML and computer vision research**
   Bring statistical ML, deep learning, gaze/intention inference, and visual modelling into usable decision-support systems.  
   `computer vision` &#183; `representation learning` &#183; `human signals`
 
-- &#128736; **Ship production-ready AI**  
+- **Ship production-ready AI**
   Build APIs, data pipelines, containers, monitoring, observability, and deployment paths that can survive real workflows.  
   `MLOps` &#183; `observability` &#183; `cloud` &#183; `reliability`
 
 </details>
 
 <details open>
-<summary><strong>&#128187; ~/stack</strong></summary>
+<summary><strong>~/stack</strong></summary>
 
 <p align="center">
   <picture>
@@ -75,7 +75,7 @@ How I tend to create value: by moving between research, systems thinking, produc
 </details>
 
 <details open>
-<summary><strong>&#128506; ~/career-landmarks</strong></summary>
+<summary><strong>~/career-landmarks</strong></summary>
 
 A few professional landmarks behind the systems work. CV available on request.
 
@@ -90,7 +90,7 @@ A few professional landmarks behind the systems work. CV available on request.
 </details>
 
 <details>
-<summary><strong>&#128269; ~/research-background</strong></summary>
+<summary><strong>~/research-background</strong></summary>
 
 My research background sits behind the engineering: computer vision, dyadic interaction, gaze and visual cue modelling, human intention inference, and reliable ML. I use that depth to build AI systems that can handle noisy data, deployment constraints, and evaluation pressure.
 
@@ -166,7 +166,7 @@ For the full publication list, see my [Google Scholar](https://scholar.google.co
 </details>
 
 <details>
-<summary><strong>&#128161; ~/current-interests</strong></summary>
+<summary><strong>~/current-interests</strong></summary>
 
 - Enterprise AI agents with evaluation, observability, and clear operating boundaries
 - LLM application quality: testing, monitoring, retrieval, and feedback loops
@@ -177,7 +177,7 @@ For the full publication list, see my [Google Scholar](https://scholar.google.co
 </details>
 
 <details open>
-<summary><strong>&#9993; ~/contact</strong></summary>
+<summary><strong>~/contact</strong></summary>
 
 Open to conversations around **AI Engineering**, **Applied AI Leadership**, **ML Engineering**, **Principal Data Scientist**, **Principal AI Engineer**, and **Applied Research** roles where research depth and production delivery both matter.
 
